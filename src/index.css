@@ -1,0 +1,99 @@
+@import 'tailwindcss';
+ 
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+/* 100 */
+/* @font-face {
+  font-weight: 100;
+  font-family: AmazonEmber;
+  src: url(./assets/Fonts/AmazonEmber_Th.ttf);
+}
+@font-face {
+  font-weight: 100;
+  font-family: AmazonEmber;
+  src: url(./assets/Fonts/AmazonEmber_ThIt.ttf);
+  font-style: italic;
+} */
+/* 300 */
+/* @font-face {
+  font-weight: 300;
+  font-family: AmazonEmber;
+  src: url(./assets/Fonts/AmazonEmber_Lt.ttf);
+}
+@font-face {
+  font-weight: 300;
+  font-family: AmazonEmber;
+  src: url(./assets/Fonts/AmazonEmber_LtIt.ttf);
+  font-style: italic;
+} */
+/* 400 */
+/* @font-face {
+  font-weight: 400;
+  font-family: AmazonEmber;
+  src: url(./assets/Fonts/AmazonEmber_Rg.ttf);
+}
+@font-face {
+  font-weight: 400;
+  font-family: AmazonEmber;
+  src: url(./assets/Fonts/AmazonEmber_RgIt.ttf);
+  font-style: italic;
+} */
+/* 500 */
+/* @font-face {
+  font-weight: 500;
+  font-family: AmazonEmber;
+  src: url(./assets/Fonts/Amazon-Ember-Medium.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-weight: 500;
+  font-family: AmazonEmber;
+  src: url(./assets/Fonts/Amazon-Ember-MediumItalic.ttf);
+  font-style: italic;
+} */
+/* 700 */
+/* @font-face {
+  font-weight: 700;
+  font-family: AmazonEmber;
+  src: url(./assets/Fonts/AmazonEmber_Bd.ttf);
+}
+@font-face {
+  font-weight: 700;
+  font-family: AmazonEmber;
+  src: url(./assets/Fonts/AmazonEmber_BdIt.ttf);
+  font-style: italic;
+} */
+/* 900 */
+/* @font-face {
+  font-weight: 900;
+  font-family: AmazonEmber;
+  src: url(./assets/Fonts/AmazonEmber_He.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-weight: 900;
+  font-family: AmazonEmber;
+  src: url(./assets/Fonts/AmazonEmber_HeIt.ttf);
+  font-style: italic;
+} */
+
+@font-face {
+    font-family: AmazonEmber;
+    src: url('./assets/Fonts/amazon-ember-cufonfonts/AmazonEmber_Rg.ttf');
+}
+
+@theme{
+    --font-amazonEmber: AmazonEmber , "sans-serif";
+}
+
+
+
