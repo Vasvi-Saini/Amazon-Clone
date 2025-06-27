@@ -9,7 +9,8 @@ import { CartProduct } from "./Cart";
 export default function Product() {
   const { productId = "" } = useParams();
   const {addToCart} = useCart();
-  const navigate = useNavigate();
+  const navigate = useNavigate(); 
+
   const [selectedQuantity , setSelectedQuantity] = useState(1)
 
   const productData = productsData.find(
@@ -25,7 +26,7 @@ export default function Product() {
     );
   }
 
-  const {
+  const { 
     discounted_price,
     actual_price,
     discount_percentage,
@@ -43,6 +44,7 @@ export default function Product() {
         {/* product image */}
         <img
           src={productData.img_link}
+          bdkiwx
           alt="productImage"
           className="h-120 w-[40%] object-contain justify-start items-center "
         />
